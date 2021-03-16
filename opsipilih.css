@@ -1,0 +1,46 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  
+  body {
+    background-image: url('img/portra.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-position: auto;
+    background-size: 810px;
+    float: right;
+  }
+  
+  .btn-login {
+    font-size: 0.2rem;
+    letter-spacing: 0.05rem;
+    border-radius: 3rem;
+    margin-right: -5px;
+  }
+  
+  .card-signin {
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .card-signin .card-body{
+    padding: 100px;
+  }
+  
+  .card-signin .card-body h4{
+    text-align: center;
+    margin-right: 170px;
+    font-weight: bolder;
+    
+  }
