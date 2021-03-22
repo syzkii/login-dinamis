@@ -5,12 +5,19 @@
     <title>Login Mahasiswa</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="login.css">
+<style>
+  .border-line {
+  border-right: 2px solid #EEEEEE;
+  margin-top: 40px;
+  height: 400px;
+}
+</style>
 </head>
 <body>
 <div class="container-fluid">
   <form method="post" action="logincek.php">
   <div class="row no-gutter">
-    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image border-line"></div>
     <div class="col-md-8 col-lg-6">
       <div class="login d-flex align-items-center py-5">
         <div class="container">
